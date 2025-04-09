@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi Pagina</title>
+    </head>
+    <body>
+        <p>Este es un ejemplo para imprimir párrafos </p>
+        <p> para ello usamos P </p>
+
+    </body>
+</html>
