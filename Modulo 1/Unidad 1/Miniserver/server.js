@@ -1,17 +1,11 @@
 // server.mjs
-const express = require('express');
-const app = express();
-app.use(express.static('public'));
-
-app.get(`/hola-mundo`,(req, res) => {
+import { createServer } from 'node:http';
+const server = createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('HOLI UWUWUWUWUWUWUWUWUWUWUWUWU!\n');
+  res.end('Hello World!\n');
 });
-
-
-
 // starts a simple http server locally on port 3000
-app.listen(3000, '127.0.0.1', () => {
+server.listen(3000, '127.0.0.1', () => {
   console.log('Listening on 127.0.0.1:3000');
 });
-// run with node server.mjs
+// run with `node server.mjs`
