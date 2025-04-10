@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi primera tabla</title>
+    </head>
+    <body>
+        <table bgcolor="#c0c0c0">
+            <tr bordercolor="c0c0c0">
+                <th bgcolor="#800080" fontcolor="#000000" width="30%" height="150px">
+                Encabezado Celda
+                </th>
+                <th with="10%">
+                    Encabezado Celda
+                </th>
+                <th with="20%" colspan="2">
+                    Universidad
+                </th>
+            </tr>
+            <tr rowspan="2">
+                <td aling="left">
+                    celda del cuerpo
+                </td>
+                <td aling="right">
+                    celda del cuerpo
+                </td>
+                <td aling="left">
+                    Universidad 2
+                </td>
+                <td aling="center">
+                    tercera columna
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    celda del cuerpo j quito capital pichincha
+                </td>
+                <td>
+                    celda del cuerpo Coro Estado Falcon
+                </td>
+                <td>
+                    Centro Historico
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="red">
+                    cuarta fila
+                </td>
+                <td bgcolor="yellow">
+                    cuarta fila segunda columna
+                </td>
+                <td bgcolor="blue">
+                    cuarta fila cuarta columna
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Eventos Deportivos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calendario de Eventos Deportivos</h1>
+
+        <!-- Calendario -->
+        <table id="calendario">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Evento</th>
+                    <th>Equipo/Participantes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filas predefinidas de eventos -->
+                <tr>
+                    <td>2025-04-15</td>
+                    <td>Partido de Fútbol</td>
+                    <td>Equipo A vs Equipo B</td>
+                    
+                </tr>
+                <tr>
+                    <td>2025-04-16</td>
+                    <td>Partido de Baloncesto</td>
+                    <td>Equipo C vs Equipo D</td>
+                   
+                </tr>
+                <tr>
+                    <td>2025-04-17</td>
+                    <td>Final de Tenis</td>
+                    <td>Jugador X vs Jugador Y</td>
+                    
+                </tr>
+                <!-- Más eventos pueden ir aquí -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
