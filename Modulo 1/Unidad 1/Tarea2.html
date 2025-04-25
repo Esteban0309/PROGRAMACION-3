@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Opiniones sobre nuestro Restaurante</title>
+</head>
+
+  <h2>Califica nuestra atencion</h2>
+  <form action="enviar" method="">
+    <label for="escenario">Que tal fue tu experiencia?:</label><br>
+    <input type="text" id="escenario" name="escenario" placeholder="Cuentanos" required><br><br>
+
+    <label for="probabilidad">Probabilidad si volverias? (%):</label><br>
+    <input type="number" id="probabilidad" name="probabilidad" min="0" max="100" placeholder="0-100" required><br><br>
+
+    <label for="opinion">Tu opinión:</label><br>
+    <textarea id="opinion" name="opinion" rows="4" cols="50" placeholder="Dejanos un mensaje que nos ayude a mejorar"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <h2>Opiniones Recibidas</h2>
+  <table border="1">
+    <th>
+      <tr>
+        <th>Experiencia</th>
+        <th>Probabilidad de Volver</th>
+        <th>Opinión de Clientes</th>
+        <th>Recomendación</th>
+      </tr>
+    </th>
+    <tb>
+      <tr>
+        <td>Visita durante la hora pico</td>
+        <td>80% de los clientes volverían</td>
+        <td>70% menciona que el servicio fue un poco lento</td>
+        <td>Recomendaríamos mejorar la rapidez en el servicio</td>
+      </tr>
+      <tr>
+        <td>Prueba del café especial</td>
+        <td>90% de satisfacción</td>
+        <td>95% recomienda pedirlo para una experiencia única</td>
+        <td>Seguir ofreciendo este café en el menú</td>
+      </tr>
+      <tr>
+        <td>Comida durante el almuerzo</td>
+        <td>85% de los comensales volverían</td>
+        <td>80% destaca la calidad y frescura de los ingredientes</td>
+        <td>Asegurarse de mantener la calidad consistente</td>
+      </tr>
+    </tb>
+  </table>
+</body>
+</html>

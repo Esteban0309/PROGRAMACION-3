@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="hhtps://google.com" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                    </td>    
+                
+                    <td>
+                        <label for="pais">Pais</label>
+                        <select name="pais" id="pais">
+                            <option value="ec">Ecuador</option>
+                            <option value="ven">Venezuela</option>
+                            <option value="br">Brasil</option>
+                            <option value="col">Colombia</option>
+                        </select>
+                    </td>  
+
+                <tr>
+                    <td>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                    </td>    
+                    <td>
+                        <label for="provincia">Provincia</label>
+                        <select name="provincia" id="provincia">
+                            <option value="pich">pichincha</option>
+                            <option value="cot">Cotopaxi</option>
+                            <option value="gua">Guayas</option>
+                            <option value="oro">El Oro</option>
+                        </select>
+                    </td>  
+                </tr>
+
+                <tr>
+                    <td>
+                        
+                        <label for="direccion">Direccion</label>
+                        <textarea 
+                         id="direccion" name="direccion"  rows="4" cols="20">
+                         Av. Occidental UTE
+                        </textarea>
+                    </td>    
+            
+                <td>
+                    <label for="nombre">Colores</label>
+                    <select name="colores" id="colores" multiple>
+                        <option value="4">Azul</option>
+                        <option value="3">Verde</option>
+                        <option value="2">Marron</option>
+                        <option value="1">Negro</option>
+                    </select>
+                </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <label for="navegadores">Navegadores</label>
+                        <input type="range" name="navegadores" id="navegadores"></input>
+                        
+                    </td>
+    
+                    <td>
+                        <label for="edad">Edad</label>
+                        <input type="number" name="edad" id="edad"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="genero">Genero</label>
+                        <input type="radio" name="femenino" id="femenino">Femenino
+                        <input type="radio" name="masculino" id="masculino">Masculino
+                        
+                    </td>
+    
+                    <td>
+                        <label for="hobby">Hobby</label>
+                        <input type="checkbox" name="cantar" id="cantar">Cantar
+                        <input type="checkbox" name="leer" id="leer">Leer
+                        <input type="checkbox" name="hablar" id="hablar">Hablar
+                        
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
